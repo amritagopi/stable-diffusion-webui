@@ -441,6 +441,7 @@ def prepare_environment():
         git_pull_recursive(extensions_dir)
         startup_timer.record("update extensions")
 
+
     if "--exit" in sys.argv:
         print("Exiting because of --exit argument")
         exit(0)
